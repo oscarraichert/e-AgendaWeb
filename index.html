@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"
+    defer></script>
+
+  <link rel="stylesheet" href="./public/css/style.css">
+  <script type="module" src="./dist/index.js" defer></script>
+
+  <title>e-Agenda Web</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-dark navbar-expand-lg mt-0 mb-4">
+    <div class="container">
+      <a class="navbar-brand fw-bolder" href="index.html">e-Agenda</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./public/tarefas/tarefa.list.html">Tarefas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Contatos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Compromissos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container mt-3 text-light">
+    <section id="introducao">
+      <div class="text-center text-md-start">
+        <div class="row-cols-1 row-cols-md-2 d-flex flex-wrap-reverse align-items-center">
+
+          <div class="mt-4 mt-md-0">
+            <header>
+              <h1 class="fw-bolder">Bem vindo ao e-Agenda!</h1>
+              <h2 class="text-warning fs-4 mt-3">A aplicação que simplifica a organização do seu calendário!</h2>
+              <hr>
+            </header>
+            <article>
+              <p class="fs-5 mt-3">Cansado de esquecer compromissos, marcar dois eventos para a mesma data, e não
+                lembrar das tarefas? O e-Agenda chegou para acabar com seus problemas, de maneira simples, prática e
+                rápida, você
+                consegue marcar compromissos, agendar tarefas e adicionar novos contatos.</p>
+              <p class="fs-3 fw-bold">Experimente já!</p>
+            </article>
+            <a id="btnCadastrar" href="./public/tarefas/tarefa.list.html"
+              class="btn btn-lg btn-primary fs-5 mb-5">Cadastre uma Tafera</a>
+          </div>
+          <div class="col no-select">
+            <img src="./public/assets/magazine.svg" class="drop-shadow img-fluid">
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+
+</html>

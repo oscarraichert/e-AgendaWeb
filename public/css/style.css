@@ -1,0 +1,45 @@
+.btn-primary {
+    background-color: #cea800;
+    font-weight: semibold;
+    color: #000000;
+}
+
+.navbar {
+    background-color: #00325a;
+    margin-top: 0%;
+}
+
+.btn-primary:hover {
+    background-color: #41b463;
+    border-color: #ffffff;
+}
+
+.drop-shadow {
+    filter: drop-shadow(10px 0px 4px #3d3d3c56);
+}
+
+.no-select {
+    user-select: none;
+}
+
+.bg-primary {
+    background-color: #00325a !important;
+}
+
+.dropdown-item:active,
+.dropdown-item:hover {
+    background-color: #00325a !important;
+}
+
+/* tbody > tr:hover > * {
+background-color: rgb(255, 255, 255) !important;
+color: black !important;
+} */
+
+body {
+    background-color: #060519;
+}
+
+.corpo-tarefas {
+    background-color: #060519;
+}
